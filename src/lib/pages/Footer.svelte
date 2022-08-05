@@ -92,7 +92,7 @@ button {
   color: var(--primary);
 }
 .social-wrapper {
-  background-color: white;
+  background-color:#16171E;
   border: 1px solid var(--comp-primary);
 }
 .copyright{
