@@ -1,12 +1,12 @@
 <script lang="ts" context="module">
- 
+
 </script>
 
 <script lang="ts">
   import SEO from "svelte-seo";
+  import About from "$lib/pages/Content.svelte";
   import Home from "$lib/pages/Home.svelte";
-  import Content from "$lib/pages/Content.svelte";
-import Footer from "$lib/pages/Footer.svelte";
+  import Footer from "$lib/pages/Footer.svelte";
 
 /* basic colors at  https://tailwindcss.com/docs/customizing-colors   more at  https://hypercolor.dev/   */ 
   let primaryBackground = "bg-gradient-to-r from-slate-900 to-blue-900";
@@ -14,14 +14,13 @@ import Footer from "$lib/pages/Footer.svelte";
 </script>
 
 <SEO
-  title="site title"
-  description="site description"
-  canonical="site link"
+  title="site name"
+  description="site desc"
+  canonical="link"
 />
 
 <Home />
-
-<Content backgroundClass={neutralBackground} />
+<!--About me/bio-->
+<About backgroundClass={primaryBackground} />
 
 <Footer backgroundClass={neutralBackground} />
-

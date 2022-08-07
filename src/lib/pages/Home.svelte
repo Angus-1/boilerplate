@@ -1,12 +1,10 @@
 <script lang="ts">
   import Anchor from "$lib/components/Anchor.svelte";
-  import IconButton from "$lib/components/IconButton.svelte";
+
  
   let color = "text-grey-200";
   let hover = "sm:hover:text-primary-500";
-  let colorClass = `${color} ${hover}`;
-  let spacingClass = "mx-5";
-  let sizeClass = "h-8 w-8";
+ 
 </script>
 
 <Anchor id="home" />
