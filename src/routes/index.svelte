@@ -4,7 +4,7 @@
 
 <script lang="ts">
   import SEO from "svelte-seo";
-  import About from "$lib/pages/Content.svelte";
+  import Content from "$lib/pages/Content.svelte";
   import Home from "$lib/pages/Home.svelte";
   import Footer from "$lib/pages/Footer.svelte";
 
@@ -21,6 +21,6 @@
 
 <Home />
 <!--About me/bio-->
-<About backgroundClass={primaryBackground} />
+<Content backgroundClass={primaryBackground} />
 
 <Footer backgroundClass={neutralBackground} />
