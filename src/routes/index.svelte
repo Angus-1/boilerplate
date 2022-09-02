@@ -23,4 +23,4 @@
 <!--About me/bio-->
 <Content backgroundClass={primaryBackground} />
 
-<Footer backgroundClass={neutralBackground} />
+<Footer  />
