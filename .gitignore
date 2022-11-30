@@ -6,7 +6,6 @@ build/
 import.sh
 *.tfstate
 *.tfstate.backup
-.terraform/
 # env files
 .envrc
 *.local
